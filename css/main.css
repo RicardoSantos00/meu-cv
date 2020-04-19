@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    /*tirando a bolinha da LI que vem por padrão*/
+}
+
+.nav {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.container {
+    display: block;
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.fluid {
+    width: 1050px;
+    height: auto;
+    float: left;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
