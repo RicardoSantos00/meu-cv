@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Oswald', sans-serif;
 }
 
 ul li {
@@ -10,6 +11,7 @@ ul li {
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 .nav {
@@ -44,19 +46,40 @@ a {
 
 .menu .container .fluid .menu-site {
     display: -webkit-inline-box;
-    margin-left: 230px;
+    margin-left: 270px;
 }
 
 .menu .container .fluid .menu-site li {
     padding-right: 70px;
 }
 
-.resumo {
-    background-image: url("../img/menu-img.PNG");
-    width: 100%;
-    height: 1039px;
+.menu .container .fluid .menu-site a {
+    text-transform: uppercase;
 }
 
-.resumo .container .fluid .left h1 {
+.resumo {
+    background: #161415 url(../img/header-background.jpg) top center;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    min-height: 500px;
     text-align: center;
+    overflow: hidden;
+}
+
+.resumo .container .fluid .cabecalho {
+    text-align: center;
+    padding-top: 250px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.intro {
+    background-color: #2B2B2B;
+}
+
+.linha-baixo {
+    border: solid #E3E3E3;
+    border-width: 1px 0 0;
+    clear: both;
 }
