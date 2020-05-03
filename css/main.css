@@ -162,6 +162,7 @@ a {
 .formacao {
     background-color: #fff;
     padding-top: 30px;
+    height: 450px;
 }
 
 .formacao .container .fluid .tituloForm {
@@ -172,6 +173,11 @@ a {
     margin-right: 500px;
 }
 
-.formacao .container .fluid .especificacao .titulo-1 {
-    font-style: italic;
+.formacao .container .fluid .especificacao span {
+    color: #6E7881;
+    font-size: 20px;
+}
+
+.formacao .container .fluid .especificacao .info {
+    font: italic 20px Georgia, serif;
 }
