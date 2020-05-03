@@ -167,3 +167,11 @@ a {
 .formacao .container .fluid .tituloForm {
     text-transform: uppercase;
 }
+
+.formacao .container .fluid .especificacao {
+    margin-right: 500px;
+}
+
+.formacao .container .fluid .especificacao .titulo-1 {
+    font-style: italic;
+}
