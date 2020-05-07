@@ -61,7 +61,6 @@ h3 {
 
 .menu {
     background-color: #000;
-    position: fixed;
 }
 
 .menu .container .fluid .menu-site {
@@ -171,7 +170,7 @@ h3 {
 }
 
 .formacao .container .fluid .tituloForm {
-    margin: 0 84px 280px 0;
+    margin: -24px 84px 280px 0;
 }
 
 .formacao .container .fluid .especificacao {
@@ -212,6 +211,58 @@ h3 {
     margin-bottom: 40px;
 }
 
+.skill .container .fluid .skill-desc .lista-progress li {
+    width: 46%;
+    float: right;
+}
+
+.skill .container .fluid .skill-desc .lista-progress .progress-bar {
+    height: 8px;
+    width: 300px;
+    padding: 2px;
+    background-color: #ccc;
+    display: flex;
+    border-radius: 50px;
+}
+
+.skill .container .fluid .skill-desc .lista-progress .progress-bar::before {
+    content: "";
+    background-color: #f7b200;
+    border-radius: 50px;
+    width: 50px;
+    width: calc(var(--progress) * 1%);
+}
+
+.rodape {
+    background-color: #000;
+}
+
+.html {
+    --progress: 90;
+}
+
+.css {
+    --progress: 80;
+}
+
+.js {
+    --progress: 60;
+}
+
+.java,
+.sql,
+.photo {
+    --progress: 50;
+}
+
+.postman {
+    --progress: 30;
+}
+
+.git {
+    --progress: 70;
+}
+
 
 /* animação */
 
@@ -230,6 +281,10 @@ h3 {
 
 [data-anime="top"] {
     transform: translate3d(0, -50px, 0);
+}
+
+[data-anime="down"] {
+    transform: translate3d(0, 50px, 0);
 }
 
 [data-anime].animate {

@@ -14,11 +14,11 @@ function debounce(func, wait, immediate) {
     };
 };
 
-const target = document.querySelectorAll('[data-anime]');
-const animationClass = 'animate';
+var target = document.querySelectorAll('[data-anime]');
+var animationClass = 'animate';
 
 function animeScroll() {
-    const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
+    var windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
     target.forEach(function(elementoTela) {
         if ((windowTop) > elementoTela.offsetTop) {
             elementoTela.classList.add(animationClass);
@@ -34,4 +34,4 @@ animeScroll();
 if (target.length)
     window.addEventListener('scroll', debounce(function() {
         animeScroll();
-    }, 100));
+    }, 150));
