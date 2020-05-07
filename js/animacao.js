@@ -18,7 +18,7 @@ const target = document.querySelectorAll('[data-anime]');
 const animationClass = 'animate';
 
 function animeScroll() {
-    const windowTop = window.pageYOffset + 600; //((window.innerHeight * 3) / 4);
+    const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
     target.forEach(function(elementoTela) {
         if ((windowTop) > elementoTela.offsetTop) {
             elementoTela.classList.add(animationClass);
