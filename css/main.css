@@ -149,8 +149,7 @@ h3 {
 
 .intro {
     background-color: #2B2B2B;
-    padding: 25px 0 25 0;
-    height: 357px;
+    margin-bottom: -100px;
 }
 
 .intro .container .fluid .img img {
@@ -170,17 +169,17 @@ h3 {
 }
 
 .formacao .container .fluid .tituloForm {
-    margin: -24px 84px 280px 0;
+    margin: 30px -110px 0px 0;
 }
 
 .formacao .container .fluid .especificacao {
-    display: contents;
+    margin: 54px 0px 40px 194px;
 }
 
 .experiência .container .fluid .desc-exp h3,
 .formacao .container .fluid .especificacao h3 {
     font-size: 24px;
-    margin-bottom: -3px;
+    margin-bottom: -10px;
     text-transform: none;
 }
 
@@ -211,9 +210,26 @@ h3 {
     margin-bottom: 40px;
 }
 
+.skill .container .fluid .skill-titulo {
+    margin: 30px 0 170px 0;
+}
+
+.skill .container .fluid .skill-desc {
+    margin-top: 50px;
+    padding-left: 70px;
+}
+
 .skill .container .fluid .skill-desc .lista-progress li {
     width: 46%;
     float: right;
+}
+
+.skill .container .fluid .skill-desc .lista-progress .percent {
+    color: #f7b200;
+}
+
+.skill .container .fluid .skill-desc .lista-progress .upper {
+    text-transform: uppercase;
 }
 
 .skill .container .fluid .skill-desc .lista-progress .progress-bar {
@@ -235,6 +251,27 @@ h3 {
 
 .rodape {
     background-color: #000;
+}
+
+.rodape .container .fluid h2,
+.rodape .container .fluid p {
+    color: #fff;
+}
+
+.rodape .container .fluid .atalho a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.rodape .container .fluid .contato {
+    margin-left: 420px;
+}
+
+.rodape .container .fluid .contato img {
+    background-color: #FFF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
 
 .html {
