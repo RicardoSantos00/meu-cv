@@ -251,11 +251,26 @@ h3 {
 
 .rodape {
     background-color: #000;
+    height: 260px;
+}
+
+.rodape .container .fluid p {
+    margin-left: 400px;
+    text-transform: uppercase;
 }
 
 .rodape .container .fluid h2,
 .rodape .container .fluid p {
     color: #fff;
+    margin-bottom: -20px;
+}
+
+.rodape .container .fluid span {
+    color: #fff;
+}
+
+.rodape .container .fluid .atalho ul {
+    margin: 50px 0 35px -40px;
 }
 
 .rodape .container .fluid .atalho a {
@@ -264,7 +279,11 @@ h3 {
 }
 
 .rodape .container .fluid .contato {
-    margin-left: 420px;
+    margin: 40px 0 0 800px;
+}
+
+.rodape .container .fluid .contato h2 {
+    padding-bottom: 20px;
 }
 
 .rodape .container .fluid .contato img {
