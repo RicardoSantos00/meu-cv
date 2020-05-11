@@ -4,6 +4,10 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ul li {
     list-style: none;
     /*tirando a bolinha da LI que vem por padrão*/
@@ -265,8 +269,9 @@ h3 {
     margin-bottom: -20px;
 }
 
-.rodape .container .fluid span {
+.rodape .container .fluid .contato span {
     color: #fff;
+    display: flex;
 }
 
 .rodape .container .fluid .atalho ul {
@@ -289,7 +294,7 @@ h3 {
 }
 
 .rodape .container .fluid .contato {
-    margin: 40px 0 0 800px;
+    margin: 40px 0 0 400px;
 }
 
 .rodape .container .fluid .contato h2 {
@@ -298,10 +303,9 @@ h3 {
 
 .rodape .container .fluid .contato img {
     background-color: #FFF;
-    border-radius: 50%;
-    margin-bottom: -8px;
     width: 30px;
     height: 30px;
+    margin-bottom: 10px;
 }
 
 .html {

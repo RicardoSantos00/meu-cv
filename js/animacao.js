@@ -1,3 +1,5 @@
+/*animação de Scroll da pagina*/
+
 function debounce(func, wait, immediate) {
     var timeout;
     return function() {
