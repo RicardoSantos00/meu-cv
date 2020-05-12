@@ -5,26 +5,6 @@
     }
 }
 
-@media (max-width: 540px) {
-    .container,
-    .fluid {
-        width: 310px;
-    }
-    .left * {
-        font-size: 13px;
-    }
-    .sub-titulo {
-        font-size: 10px;
-    }
-    .resumo .container .fluid .left h1 {
-        font-size: 10px;
-    }
-    .skill .container .fluid .skill-desc .lista-progress li {
-        width: 100%;
-        float: none;
-    }
-}
-
 @media (max-width: 1220px) and (min-width: 901px) {
     .container,
     .fluid {
@@ -76,5 +56,25 @@
     .container,
     .fluid {
         width: 520px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container,
+    .fluid {
+        width: 310px;
+    }
+    .left * {
+        font-size: 13px;
+    }
+    .sub-titulo {
+        font-size: 10px;
+    }
+    .resumo .container .fluid .left h1 {
+        font-size: 10px;
+    }
+    .skill .container .fluid .skill-desc .lista-progress li {
+        width: 100%;
+        float: none;
     }
 }
