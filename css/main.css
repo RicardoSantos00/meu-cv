@@ -255,23 +255,7 @@ h3 {
 
 .rodape {
     background-color: #000;
-    height: 260px;
-}
-
-.rodape .container .fluid p {
-    margin-left: 400px;
-    text-transform: uppercase;
-}
-
-.rodape .container .fluid h2,
-.rodape .container .fluid p {
-    color: #fff;
-    margin-bottom: -20px;
-}
-
-.rodape .container .fluid .contato span {
-    color: #fff;
-    display: flex;
+    height: 100%;
 }
 
 .rodape .container .fluid .atalho ul {
@@ -293,19 +277,45 @@ h3 {
     transition: all 0.3s ease-in;
 }
 
+.rodape .container .fluid h2,
+.rodape .container .fluid p,
+.rodape .container .fluid span {
+    color: #fff;
+}
+
+.rodape .container .fluid .contato h2 {
+    margin: -20px 0 15px 0;
+}
+
+.rodape .container .fluid .contato span p {
+    font-size: 15px;
+    margin: -3px 0 0 15px;
+}
+
+.rodape .container .fluid .contato span {
+    display: flex;
+}
+
 .rodape .container .fluid .contato {
     margin: 40px 0 0 400px;
 }
 
-.rodape .container .fluid .contato h2 {
-    padding-bottom: 20px;
+.rodape .container .fluid .contato img {
+    margin: 0 10px 10px 0;
 }
 
-.rodape .container .fluid .contato img {
-    background-color: #FFF;
-    width: 30px;
-    height: 30px;
-    margin-bottom: 10px;
+.rodape .container .fluid .contato span .location {
+    height: 25px;
+}
+
+.rodape .container .fluid .contato span span {
+    font-size: 20px;
+    margin: 14px 0 10px -56px;
+}
+
+.rodape .container .fluid .direitos p {
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .html {
