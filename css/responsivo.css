@@ -1,80 +1,93 @@
-@media (max-width: 900px) {
-    .container,
-    .fluid {
-        width: 800px;
+    @media (max-width: 1220px) and (min-width: 901px) {
+        .container,
+        .fluid {
+            width: 970px;
+        }
+        .left * {
+            font-size: 20px;
+        }
+        .right * {
+            font-size: 20px;
+        }
+        .menu .container .fluid .menu-site {
+            margin-left: 160px;
+        }
+        .resumo .container .fluid .left h1 {
+            font-size: 40px;
+        }
     }
-}
-
-@media (max-width: 1220px) and (min-width: 901px) {
-    .container,
-    .fluid {
-        width: 970px;
+    
+    @media (max-width: 900px) {
+        .container,
+        .fluid {
+            width: 800px;
+        }
     }
-    .left * {
-        font-size: 20px;
+    
+    @media (max-width: 899px) and (min-width: 781px) {
+        .container,
+        .fluid {
+            width: 760px;
+        }
+        .left * {
+            font-size: 25px;
+        }
+        .right * {
+            font-size: 25px;
+        }
+        .sub-titulo {
+            font-size: 16px;
+        }
+        .menu .container .fluid .menu-site {
+            margin-left: 10%;
+        }
+        .resumo .container .fluid .left h1 {
+            font-size: 35px;
+        }
+        .resumo .container .fluid .social {
+            width: 90%;
+            margin-left: 30px;
+        }
+        .intro .container .fluid .img img {
+            width: 100px;
+        }
+        .skill .container .fluid .skill-desc .lista-progress {
+            margin-bottom: 40px;
+        }
+        .skill .container .fluid .skill-desc .lista-progress li {
+            float: none;
+        }
+        .skill .container .fluid .skill-desc .lista-progress .progress-bar {
+            width: 590px;
+        }
+        .rodape .container .fluid .atalho a {
+            font-size: 20px;
+        }
     }
-    .right * {
-        font-size: 20px;
+    
+    @media (max-width: 640px) and (min-width: 541px) {
+        .container,
+        .fluid {
+            width: 520px;
+        }
     }
-    .sub-titulo {
-        font-size: 15px;
-        display: table-cell;
+    
+    @media (max-width: 540px) {
+        .container,
+        .fluid {
+            width: 420px;
+        }
+        .left * {
+            font-size: 20px;
+        }
+        .sub-titulo {
+            font-size: 20px;
+        }
+        .resumo .container .fluid .left h1 {
+            font-size: 20px;
+        }
+        .skill .container .fluid .skill-desc .lista-progress li {
+            width: 100%;
+            float: none;
+        }
     }
-    .menu .container .fluid .menu-site {
-        margin-left: 140px;
-    }
-    .resumo .container .fluid .social .rede {
-        max-width: 100px;
-        max-height: 100px;
-    }
-    .resumo .container .fluid .social .rede a img {
-        width: 70px;
-        height: 60px;
-    }
-    .resumo .container .fluid .social .rede .icone {
-        margin-top: 20px;
-    }
-    .formacao .container .fluid .tituloForm {
-        margin-right: 10px;
-    }
-    .formacao .container .fluid .especificacao h3,
-    .formacao .container .fluid .especificacao span,
-    .formacao .container .fluid .especificacao .info,
-    .formacao .container .fluid .especificacao p {
-        font-size: 10px;
-    }
-}
-
-@media (max-width: 940px) and (min-width: 781px) {
-    .container,
-    .fluid {
-        width: 760px;
-    }
-}
-
-@media (max-width: 640px) and (min-width: 541px) {
-    .container,
-    .fluid {
-        width: 520px;
-    }
-}
-
-@media (max-width: 540px) {
-    .container,
-    .fluid {
-        width: 310px;
-    }
-    .left * {
-        font-size: 13px;
-    }
-    .sub-titulo {
-        font-size: 10px;
-    }
-    .resumo .container .fluid .left h1 {
-        font-size: 10px;
-    }
-    .skill .container .fluid .skill-desc .lista-progress li {
-        width: 100%;
-        float: none;
-    }
-}

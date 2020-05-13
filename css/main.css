@@ -55,6 +55,7 @@ h3 {
 
 .sub-titulo {
     color: #7A7A7A;
+    font-size: 19px;
 }
 
 .linha-baixo-1 {
@@ -153,7 +154,6 @@ h3 {
 
 .intro {
     background-color: #2B2B2B;
-    margin-bottom: -100px;
 }
 
 .intro .container .fluid .img img {

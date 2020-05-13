@@ -37,3 +37,8 @@ if (target.length)
     window.addEventListener('scroll', debounce(function() {
         animeScroll();
     }, 150));
+
+
+const lista = document.querySelectorAll(".percent");
+lista = new Array(".percent");
+lista.sort();
