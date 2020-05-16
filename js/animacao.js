@@ -39,6 +39,85 @@ if (target.length)
     }, 150));
 
 
-const lista = document.querySelectorAll(".percent");
+/*const lista = document.querySelectorAll(".percent");
 lista = new Array(".percent");
-lista.sort();
+lista.sort();*/
+var html = '';
+var lista = [{
+        porcentagem: 90,
+        nome: 'HTML5'
+    },
+    {
+        porcentagem: 80,
+        nome: 'CSS3'
+    },
+    {
+        porcentagem: 70,
+        nome: 'GIT'
+    },
+    {
+        porcentagem: 60,
+        nome: 'JAVASCRIPT'
+    },
+    {
+        porcentagem: 50,
+        nome: 'JAVA'
+    },
+    {
+        porcentagem: 50,
+        nome: 'ORACLE'
+    },
+    {
+        porcentagem: 50,
+        nome: 'MySQL'
+    },
+    {
+        porcentagem: 50,
+        nome: 'SQL SERVER'
+    },
+    {
+        porcentagem: 50,
+        nome: 'PHOTOSHOP'
+    },
+    {
+        porcentagem: 30,
+        nome: 'POSTMAN'
+    }
+];
+
+var listaHtml = document.getElementById("myList");
+lista.sort((a, b) => b.porcentagem - a.porcentagem);
+for (let index = 0; index < lista.length; index++) {
+    html = html + ('<li><span class="percent">' + lista[index].porcentagem + '%</span> <span class="upper">•' + lista[index].nome + '</span><div class="progress-bar" style="--progress: ' + lista[index].porcentagem + '"></div></li>');
+}
+
+document.getElementById("myList").innerHTML = html;
+
+// var valor;
+// var html = '';
+
+// for (var i = 0; i < lista.length; i++) {
+//     valor = lista[i].children[0].innerText;
+//     valor = valor.replace(/\D/g, '');
+//     //valor.replace(/([0-10])+/g, '');
+//     novaLista.push(valor);
+// }
+
+// novaLista.sort((a, b) => b - a);
+
+// for (var i = 0; i < novaLista.length; i++) {
+//     for (var j = 0; j < lista.length; j++) {
+//         valor = lista[j].children[0].innerText;
+//         valor = valor.replace(/\D/g, '');
+
+//         if (valor === novaLista[i]) {
+//             lista[j].setAttribute('class', 'checked');
+//             html = html + ('<li>' + lista[j].innerHTML + '</li>');
+//             j = lista.length;
+//         }
+//     }
+// }
+
+
+//console.log(list.length, list);
+console.log(novaLista);
