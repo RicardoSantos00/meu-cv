@@ -88,7 +88,8 @@ var lista = [{
 var listaHtml = document.getElementById("myList");
 lista.sort((a, b) => b.porcentagem - a.porcentagem);
 for (let index = 0; index < lista.length; index++) {
-    html = html + ('<li><span class="percent">' + lista[index].porcentagem + '%</span> <span class="upper">•' + lista[index].nome + '</span><div class="progress-bar" style="--progress: ' + lista[index].porcentagem + '"></div></li>');
+    html = html + ('<li><span class="percent">' + lista[index].porcentagem + '%</span> <span class="upper">•' +
+        lista[index].nome + '</span><div class="progress-bar" style="--progress: ' + lista[index].porcentagem + '"></div></li>');
 }
 
 document.getElementById("myList").innerHTML = html;
@@ -120,4 +121,20 @@ document.getElementById("myList").innerHTML = html;
 
 
 //console.log(list.length, list);
-console.log(novaLista);
+
+
+
+
+document.querySelector('.menu-abrir').onclick = function() {
+    document.documentElement.classList.add('menu-ativo');
+};
+
+document.querySelector('.menu-fechar').onclick = function() {
+    document.documentElement.classList.remove('menu-ativo');
+};
+
+document.documentElement.onclick = function(event) {
+    if (event.target === document.documentElement) {
+        document.documentElement.classList.remove('menu-ativo');
+    }
+};

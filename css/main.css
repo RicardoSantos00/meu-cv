@@ -68,21 +68,21 @@ h3 {
     background-color: #000;
 }
 
-.menu .container .fluid .menu-site {
+.menu .container .fluid .menu-principal {
     display: -webkit-inline-box;
     margin-left: 210px;
 }
 
-.menu .container .fluid .menu-site li {
+.menu .container .fluid .menu-principal li {
     padding-right: 70px;
 }
 
-.menu .container .fluid .menu-site a {
+.menu .container .fluid .menu-principal a {
     text-transform: uppercase;
     color: #fff;
 }
 
-.menu .container .fluid .menu-site a:hover {
+.menu .container .fluid .menu-principal a:hover {
     color: #F06000;
     opacity: 1;
     filter: alpha(opacity=100);
