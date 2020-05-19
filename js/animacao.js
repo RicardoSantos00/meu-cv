@@ -39,9 +39,7 @@ if (target.length)
     }, 150));
 
 
-/*const lista = document.querySelectorAll(".percent");
-lista = new Array(".percent");
-lista.sort();*/
+// ----------------------------------- ordenação de listagem -------------------------------------
 var html = '';
 var lista = [{
         porcentagem: 90,

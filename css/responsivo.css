@@ -1,145 +1,328 @@
-        @media (max-width: 1220px) and (min-width: 901px) {
-            .container,
-            .fluid {
-                width: 794px;
-            }
-            .left * {
-                font-size: 25px;
-            }
-            .right * {
-                font-size: 25px;
-            }
-            .menu .container .fluid .menu-principal {
-                margin-left: 80px;
-            }
-            .resumo .container .fluid .left h1 {
-                font-size: 50px;
-            }
-            .resumo .container .fluid .social {
-                width: 729px;
-                margin-left: 30px;
-            }
-            .rodape .container .fluid .atalho a {
-                font-size: 20px;
-            }
-            .rodape .container .fluid .contato {
-                margin-top: 75px;
-            }
-        }
-        
-        @media (max-width: 899px) and (min-width: 781px) {
-            .container,
-            .fluid {
-                width: 760px;
-            }
-            .left * {
-                font-size: 25px;
-            }
-            .right * {
-                font-size: 25px;
-            }
-            .sub-titulo {
-                font-size: 16px;
-            }
-            .menu .container .fluid .menu-principal {
-                margin-left: 10%;
-            }
-            .resumo .container .fluid .left h1 {
-                font-size: 35px;
-            }
-            .resumo .container .fluid .social {
-                width: 90%;
-                margin-left: 30px;
-            }
-            .intro .container .fluid .img img {
-                width: 100px;
-                margin-left: 0px;
-            }
-            .skill .container .fluid .skill-desc .lista-progress {
-                margin: 60px 0 50px 0;
-            }
-            .skill .container .fluid .skill-desc .lista-progress li {
-                float: none;
-            }
-            .skill .container .fluid .skill-desc .lista-progress .progress-bar {
-                width: 590px;
-            }
-            .rodape .container .fluid .atalho li {
-                margin-bottom: -13px;
-            }
-            .rodape .container .fluid .contato {
-                margin-top: 60px;
-            }
-            .rodape .container .fluid .contato h2 {
-                margin-bottom: 10px;
-            }
-            .rodape .container .fluid .atalho a,
-            .rodape .container .fluid .contato,
-            .rodape .container .fluid .direitos p {
-                font-size: 15px;
-            }
-            .rodape .container .fluid .contato img {
-                margin: 0 5px 5px 0;
-                width: 22px;
-                height: 22px;
-            }
-        }
-        
-        @media (max-width: 600px) {
-            .barra-nav {
-                background: #f0f0f0;
-                padding: 1em;
-                margin: 0;
-                height: 100%;
-                width: 90%;
-                max-width: 320px;
-                position: fixed;
-                z-index: 1;
-                top: 0;
-                left: -90%;
-                transition: left 0.3s ease-out;
-            }
-            .menu-ativo .barra-nav {
-                left: 0;
-            }
-            .menu-principal li {
-                padding: 1em 0;
-                width: 100%;
-            }
-            .menu-ativo:after {
-                content: "";
-                display: block;
-                position: fixed;
-                top: 0;
-                left: 0;
-                bottom: 0;
-                right: 0;
-                background: rgba(0, 0, 0, 0.4);
-            }
-        }
-        
-        @media not all and (max-width: 600px) {
-            .menu-abrir,
-            .menu-fechar {
-                display: none;
-            }
-        }
-        /*@media (max-width: 540px) {
-            .container,
-            .fluid {
-                width: 420px;
-            }
-            .left * {
-                font-size: 20px;
-            }
-            .sub-titulo {
-                font-size: 20px;
-            }
-            .resumo .container .fluid .left h1 {
-                font-size: 20px;
-            }
-            .skill .container .fluid .skill-desc .lista-progress li {
-                width: 100%;
-                float: none;
-            }
-        }*/
+@media all and (min-width: 1026px) and (max-width: 1220px) {
+    .nav {
+        min-width: 970px;
+    }
+    .container,
+    .fluid {
+        width: 970px;
+    }
+}
+
+@media all and (min-width: 941px) and (max-width: 1025px) {
+    .nav {
+        min-width: 895px;
+    }
+    .container,
+    .fluid {
+        width: 895px;
+    }
+    .left * {
+        font-size: 25px;
+    }
+    .right * {
+        font-size: 25px;
+    }
+    .resumo .container .fluid .left h1 {
+        font-size: 50px;
+    }
+    .resumo .container .fluid .social {
+        width: 729px;
+        margin-left: 230px;
+    }
+    .rodape .container .fluid .atalho a {
+        font-size: 20px;
+    }
+    .rodape .container .fluid .contato {
+        margin-top: 75px;
+    }
+}
+
+@media all and (min-width: 781px) and (max-width: 940px) {
+    .nav {
+        min-width: 760px;
+    }
+    .container,
+    .fluid {
+        width: 760px;
+    }
+    .left * {
+        font-size: 25px;
+    }
+    .right * {
+        font-size: 25px;
+    }
+    .sub-titulo {
+        font-size: 16px;
+    }
+    .resumo .container .fluid .left h1 {
+        font-size: 40px;
+    }
+    .resumo .container .fluid .social {
+        width: 90%;
+        margin-left: 215px;
+    }
+    .intro .container .fluid .img img {
+        width: 100px;
+        margin-left: 0px;
+    }
+    .skill .container .fluid .skill-desc .lista-progress {
+        margin: 60px 0 50px 0;
+    }
+    .skill .container .fluid .skill-desc .lista-progress li {
+        float: none;
+    }
+    .skill .container .fluid .skill-desc .lista-progress .progress-bar {
+        width: 590px;
+    }
+    .rodape .container .fluid .atalho li {
+        margin-bottom: -13px;
+    }
+    .rodape .container .fluid .contato {
+        margin-top: 60px;
+    }
+    .rodape .container .fluid .contato h2 {
+        margin-bottom: 10px;
+    }
+    .rodape .container .fluid .atalho a,
+    .rodape .container .fluid .contato,
+    .rodape .container .fluid .direitos p {
+        font-size: 15px;
+    }
+    .rodape .container .fluid .contato img {
+        margin: 0 5px 5px 0;
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 780px) {
+    .nav {
+        min-width: 661px;
+    }
+    .container,
+    .fluid {
+        width: 661px;
+    }
+    .left * {
+        font-size: 25px;
+    }
+    .right * {
+        font-size: 23px;
+    }
+    .sub-titulo {
+        font-size: 17px;
+    }
+    .barra-nav {
+        background-color: #000;
+        /* padding: 1em;*/
+        margin: 0;
+        height: 100%;
+        width: 90%;
+        max-width: 320px;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: -90%;
+        transition: left 0.3s ease-out;
+    }
+    .menu {
+        height: 40px;
+    }
+    .menu-abrir,
+    .menu-fechar {
+        width: 0pc;
+        height: 0pc;
+        background-color: #000;
+        color: #000;
+        cursor: pointer;
+        display: block;
+    }
+    .menu-abrir img,
+    .menu-fechar img {
+        margin-top: 5px;
+    }
+    .menu-ativo .barra-nav {
+        left: 0;
+    }
+    .menu .container .fluid .menu-principal {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu .container .fluid .menu-principal li {
+        padding: 1em 0;
+        width: 100%;
+    }
+    .menu-ativo:after {
+        content: "";
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .resumo .container .fluid .left h1 {
+        font-size: 40px;
+    }
+    .resumo .container .fluid .social {
+        margin-left: 150px;
+    }
+    .skill .container .fluid .skill-desc .lista-progress li {
+        float: none;
+    }
+    .skill .container .fluid .skill-desc .lista-progress .progress-bar {
+        width: 420px;
+    }
+    .skill .container .fluid .skill-desc .lista-progress {
+        margin-bottom: 50px;
+    }
+    .rodape .container .fluid .contato {
+        margin-top: 75px;
+    }
+    .rodape .container .fluid .atalho a,
+    .rodape .container .fluid .contato,
+    .rodape .container .fluid .direitos p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 600px) {
+    .nav {
+        width: 420px;
+    }
+    .container,
+    .fluid {
+        width: 420px;
+    }
+    .left * {
+        font-size: 20px;
+    }
+    .sub-titulo {
+        font-size: 20px;
+    }
+    .barra-nav {
+        background-color: #000;
+        /* padding: 1em;*/
+        margin: 0;
+        height: 100%;
+        width: 90%;
+        max-width: 320px;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: -90%;
+        transition: left 0.3s ease-out;
+    }
+    .menu {
+        height: 40px;
+    }
+    .menu-abrir,
+    .menu-fechar {
+        width: 0pc;
+        height: 0pc;
+        background-color: #000;
+        color: #000;
+        cursor: pointer;
+        display: block;
+    }
+    .menu-abrir img,
+    .menu-fechar img {
+        margin-top: 5px;
+    }
+    .menu-ativo .barra-nav {
+        left: 0;
+    }
+    .menu .container .fluid .menu-principal {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu .container .fluid .menu-principal li {
+        padding: 1em 0;
+        width: 100%;
+    }
+    .menu-ativo:after {
+        content: "";
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .resumo .container .fluid .left h1 {
+        font-size: 20px;
+    }
+    .skill .container .fluid .skill-desc .lista-progress li {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media all and (max-width: 540px) {
+    .nav {
+        min-width: 310px;
+    }
+    .container,
+    .fluid {
+        width: 310px;
+    }
+    .barra-nav {
+        background-color: #000;
+        /* padding: 1em;*/
+        margin: 0;
+        height: 100%;
+        width: 90%;
+        max-width: 320px;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: -90%;
+        transition: left 0.3s ease-out;
+    }
+    .menu {
+        height: 40px;
+    }
+    .menu-abrir,
+    .menu-fechar {
+        width: 0pc;
+        height: 0pc;
+        background-color: #000;
+        color: #000;
+        cursor: pointer;
+        display: block;
+    }
+    .menu-abrir img,
+    .menu-fechar img {
+        margin-top: 5px;
+    }
+    .menu-ativo .barra-nav {
+        left: 0;
+    }
+    .menu .container .fluid .menu-principal {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu .container .fluid .menu-principal li {
+        padding: 1em 0;
+        width: 100%;
+    }
+    .menu-ativo:after {
+        content: "";
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .resumo .container .fluid .left h1 {
+        font-size: 20px;
+    }
+    .skill .container .fluid .skill-desc .lista-progress li {
+        width: 100%;
+        float: none;
+    }
+}
