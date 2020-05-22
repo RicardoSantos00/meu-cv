@@ -10,11 +10,11 @@
 
 @media all and (min-width: 941px) and (max-width: 1025px) {
     .nav {
-        min-width: 895px;
+        min-width: 829px;
     }
     .container,
     .fluid {
-        width: 895px;
+        width: 829px;
     }
     .left * {
         font-size: 25px;
@@ -28,6 +28,15 @@
     .resumo .container .fluid .social {
         width: 729px;
         margin-left: 230px;
+    }
+    .resumo .container .fluid .social .rede {
+        margin-left: 40px;
+        width: 130px;
+        height: 130px;
+    }
+    .resumo .container .fluid .social .rede .icone {
+        width: 70px;
+        margin-top: 26px
     }
     .rodape .container .fluid .atalho a {
         font-size: 20px;
@@ -60,6 +69,15 @@
     .resumo .container .fluid .social {
         width: 90%;
         margin-left: 215px;
+    }
+    .resumo .container .fluid .social .rede {
+        margin-left: 40px;
+        width: 110px;
+        height: 110px;
+    }
+    .resumo .container .fluid .social .rede .icone {
+        width: 60px;
+        margin-top: 23px;
     }
     .intro .container .fluid .img img {
         width: 100px;
@@ -167,6 +185,15 @@
     }
     .resumo .container .fluid .social {
         margin-left: 150px;
+    }
+    .resumo .container .fluid .social .rede {
+        margin-left: 44px;
+        width: 80px;
+        height: 80px;
+    }
+    .resumo .container .fluid .social .rede .icone {
+        width: 40px;
+        margin-top: 20px;
     }
     .skill .container .fluid .skill-desc .lista-progress li {
         float: none;
@@ -324,5 +351,14 @@
     .skill .container .fluid .skill-desc .lista-progress li {
         width: 100%;
         float: none;
+    }
+    .resumo .container .fluid .social .rede {
+        margin-left: -189px;
+        width: 80px;
+        height: 80px;
+    }
+    .resumo .container .fluid .social .rede .icone {
+        width: 40px;
+        margin-top: 20px;
     }
 }
