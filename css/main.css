@@ -64,6 +64,11 @@ h3 {
     clear: both;
 }
 
+.menu-abrir,
+.menu-fechar {
+    display: none;
+}
+
 .menu {
     background-color: #000;
 }
@@ -209,17 +214,6 @@ h3 {
     margin-bottom: -73px;
 }
 
-.experiência .container .fluid .expe-info:before {
-    content: '';
-    left: 0;
-    position: absolute;
-    height: 3px;
-    right: 912px;
-    background-color: #11ABB0;
-    bottom: -85px;
-    transition: all .5s ease;
-}
-
 .experiência .container .fluid .desc-exp {
     margin-left: 194px;
     margin-bottom: 40px;
@@ -356,9 +350,4 @@ h3 {
 [data-anime].animate {
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
-}
-
-.menu-abrir,
-.menu-fechar {
-    display: none;
 }
