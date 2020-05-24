@@ -71,6 +71,8 @@ h3 {
 
 .menu {
     background-color: #000;
+    position: fixed;
+    z-index: 1;
 }
 
 .menu .container .fluid .menu-principal {
