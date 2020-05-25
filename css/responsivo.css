@@ -52,7 +52,7 @@
     }
     .container,
     .fluid {
-        width: 667px;
+        width: 665px;
     }
     .left * {
         font-size: 25px;
@@ -113,13 +113,13 @@
     }
 }
 
-@media all and (max-width: 780px) {
+@media all and (min-width: 780px) {
     .nav {
         min-width: 596px;
     }
     .container,
     .fluid {
-        width: 596px;
+        width: 643px
     }
 }
 
@@ -132,7 +132,7 @@
     }
     .container,
     .fluid {
-        width: 558px;
+        width: 513px;
     }
     .left * {
         font-size: 25px;
@@ -158,7 +158,6 @@
     .menu {
         height: 40px;
         position: fixed;
-        z-index: 1;
     }
     .menu-abrir,
     .menu-fechar {
@@ -199,7 +198,7 @@
         font-size: 40px;
     }
     .resumo .container .fluid .social {
-        margin-left: 150px;
+        margin-left: 120px;
     }
     .resumo .container .fluid .social .rede {
         margin-left: 44px;
@@ -211,7 +210,7 @@
         margin-top: 20px;
     }
     .intro {
-        height: 450px;
+        height: 480px;
     }
     .intro .container .fluid .img img {
         width: 100px;
@@ -223,7 +222,7 @@
         float: none;
     }
     .skill .container .fluid .skill-desc .lista-progress .progress-bar {
-        width: 420px;
+        width: 310px;
     }
     .skill .container .fluid .skill-desc .lista-progress {
         margin-bottom: 50px;
@@ -239,13 +238,16 @@
     }
 }
 
-@media (min-width: 540px) and (max-width: 600px) {
+@media (min-width: 500px) and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
     .nav {
-        width: 420px;
+        width: 573px;
     }
     .container,
     .fluid {
-        width: 420px;
+        width: 511px;
     }
     .left * {
         font-size: 20px;
@@ -260,20 +262,19 @@
         height: 100%;
         width: 90%;
         max-width: 320px;
-        position: absolute;
-        z-index: 1;
+        position: fixed;
         top: 0;
         left: -90%;
         transition: left 0.3s ease-out;
     }
     .menu {
         height: 40px;
+        position: fixed;
     }
     .menu-abrir,
     .menu-fechar {
         border: 0;
         background-color: #000;
-        color: #000;
         cursor: pointer;
         display: block;
     }
@@ -311,7 +312,7 @@
     }
 }
 
-@media all and (max-width: 540px) {
+@media all and (max-width: 499px) {
     .nav {
         min-width: 310px;
     }
@@ -327,13 +328,14 @@
         width: 90%;
         max-width: 320px;
         position: absolute;
-        z-index: 1;
         top: 0;
         left: -90%;
         transition: left 0.3s ease-out;
     }
     .menu {
         height: 40px;
+        position: fixed;
+        z-index: 1;
     }
     .menu-abrir,
     .menu-fechar {
