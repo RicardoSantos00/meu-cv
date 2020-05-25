@@ -6,6 +6,9 @@
     .fluid {
         width: 907px;
     }
+    .resumo .container .fluid .social {
+        margin-left: 270px;
+    }
 }
 
 @media all and (min-width: 941px) and (max-width: 1025px) {
@@ -60,6 +63,9 @@
     .right * {
         font-size: 25px;
     }
+    .titulo {
+        margin-bottom: 0px;
+    }
     .sub-titulo {
         font-size: 16px;
     }
@@ -113,16 +119,6 @@
     }
 }
 
-@media all and (min-width: 780px) {
-    .nav {
-        min-width: 596px;
-    }
-    .container,
-    .fluid {
-        width: 643px
-    }
-}
-
 @media (min-width: 601px) and (max-width: 779px) {
     body {
         overflow-x: hidden;
@@ -135,13 +131,13 @@
         width: 513px;
     }
     .left * {
-        font-size: 25px;
+        font-size: 21px;
     }
     .right * {
         font-size: 23px;
     }
     .sub-titulo {
-        font-size: 15px;
+        font-size: 14px;
     }
     .barra-nav {
         background-color: #000;
@@ -216,7 +212,29 @@
         width: 100px;
     }
     .intro .container .fluid .sobre .titulo {
-        margin-bottom: 0px;
+        margin-bottom: 10px;
+    }
+    .formacao .container .fluid .tituloForm {
+        float: none;
+        margin-left: 200px;
+    }
+    .formacao .container .fluid .especificacao h3 {
+        font-size: 22px;
+    }
+    .formacao .container .fluid .especificacao {
+        margin: 40px 0px 40px 33px;
+    }
+    .experiência .container .fluid .expe-info {
+        float: none;
+        margin-left: 200px;
+        margin-bottom: -10px;
+    }
+    .experiência .container .fluid .desc-exp {
+        margin-left: 40px;
+    }
+    .skill .container .fluid .skill-titulo {
+        float: none;
+        margin: -1px 0px -42px 213px;
     }
     .skill .container .fluid .skill-desc .lista-progress li {
         float: none;
@@ -243,11 +261,11 @@
         overflow-x: hidden;
     }
     .nav {
-        width: 573px;
+        width: 585px;
     }
     .container,
     .fluid {
-        width: 511px;
+        width: 545px;
     }
     .left * {
         font-size: 20px;
@@ -269,7 +287,6 @@
     }
     .menu {
         height: 40px;
-        position: fixed;
     }
     .menu-abrir,
     .menu-fechar {
@@ -304,7 +321,19 @@
         background: rgba(0, 0, 0, 0.4);
     }
     .resumo .container .fluid .left h1 {
-        font-size: 20px;
+        font-size: 40px;
+    }
+    .resumo .container .fluid .social {
+        margin-left: 160px;
+    }
+    .resumo .container .fluid .social .rede {
+        margin-left: 20px;
+        width: 75px;
+        height: 75px;
+    }
+    .resumo .container .fluid .social .rede .icone {
+        width: 40px;
+        margin-top: 20px;
     }
     .skill .container .fluid .skill-desc .lista-progress li {
         width: 100%;

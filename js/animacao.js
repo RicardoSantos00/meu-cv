@@ -121,7 +121,7 @@ document.getElementById("myList").innerHTML = html;
 //console.log(list.length, list);
 
 
-
+/* Menu Responsivo */
 
 document.querySelector('.menu-abrir').onclick = function() {
     document.documentElement.classList.add('menu-ativo');
