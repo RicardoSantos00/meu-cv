@@ -349,7 +349,7 @@
     }
     .intro .container .fluid .img img {
         width: 100px;
-        margin-left: 0px;
+        margin: 15px 10px 270px -69px;
     }
     .formacao .container .fluid .tituloForm {
         float: none;
@@ -400,7 +400,7 @@
         overflow-x: hidden;
     }
     .nav {
-        width: 102%;
+        width: 108%
     }
     .container,
     .fluid {
@@ -410,11 +410,11 @@
 
 @media all and (max-width: 540px) {
     .nav {
-        min-width: 430px;
+        min-width: 120%;
     }
     .container,
     .fluid {
-        width: 430px;
+        width: 520px;
     }
     .left * {
         font-size: 20px;
@@ -423,7 +423,7 @@
         font-size: 23px;
     }
     .sub-titulo {
-        font-size: 17px;
+        font-size: 14px;
     }
     .barra-nav {
         background-color: #000;
