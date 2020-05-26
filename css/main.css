@@ -188,7 +188,7 @@ h3 {
 }
 
 .formacao .container .fluid .especificacao {
-    margin: 54px 0px 40px 194px;
+    margin: 50px 0px 40px 194px;
 }
 
 .experiência .container .fluid .desc-exp h3,
@@ -223,6 +223,7 @@ h3 {
 .experiência .container .fluid .desc-exp {
     margin-left: 194px;
     margin-bottom: 40px;
+    margin-top: -9px;
 }
 
 .skill .container .fluid .skill-titulo {
@@ -230,7 +231,7 @@ h3 {
 }
 
 .skill .container .fluid .skill-desc {
-    margin-top: 50px;
+    margin-top: 45px;
     padding-left: 70px;
 }
 
