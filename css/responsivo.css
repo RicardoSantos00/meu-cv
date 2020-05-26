@@ -375,9 +375,12 @@
     .skill .container .fluid .skill-desc .lista-progress .progress-bar {
         width: 410px;
     }
+    .skill .container .fluid .skill-desc .lista-progress {
+        margin-bottom: 40px;
+        margin-left: -50px;
+    }
     .skill .container .fluid .skill-desc .lista-progress li {
         float: none;
-        margin-bottom: 40px;
     }
     .rodape .container .fluid .contato {
         margin-left: 360px;
