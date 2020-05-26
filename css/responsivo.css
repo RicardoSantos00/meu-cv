@@ -345,7 +345,7 @@
         margin-top: 20px;
     }
     .intro {
-        height: 470px
+        height: 495px
     }
     .intro .container .fluid .img img {
         width: 100px;
@@ -382,9 +382,16 @@
     .skill .container .fluid .skill-desc .lista-progress li {
         float: none;
     }
+    .rodape .container .fluid .atalho {
+        margin-left: 5px;
+    }
+    .rodape .container .fluid .atalho a {
+        font-size: 15px;
+    }
     .rodape .container .fluid .contato {
-        margin-left: 360px;
+        margin-left: 315px;
         margin-top: 60px;
+        font-size: 15px;
     }
 }
 
