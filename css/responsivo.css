@@ -69,6 +69,9 @@
     .sub-titulo {
         font-size: 16px;
     }
+    .resumo .container .fluid .cabecalho {
+        margin-top: 70px;
+    }
     .resumo .container .fluid .left h1 {
         font-size: 40px;
     }
@@ -96,7 +99,7 @@
         float: none;
     }
     .skill .container .fluid .skill-desc .lista-progress .progress-bar {
-        width: 590px;
+        width: 480px;
     }
     .rodape .container .fluid .atalho li {
         margin-bottom: -13px;
@@ -119,7 +122,7 @@
     }
 }
 
-@media (min-width: 601px) and (max-width: 780px) {
+@media (min-width: 641px) and (max-width: 780px) {
     body {
         overflow-x: hidden;
     }
@@ -128,7 +131,7 @@
     }
     .container,
     .fluid {
-        width: 513px;
+        width: 580px;
     }
     .left * {
         font-size: 21px;
@@ -190,11 +193,14 @@
         right: 0;
         background: rgba(0, 0, 0, 0.4);
     }
+    .resumo .container .fluid .cabecalho {
+        margin-top: 75px;
+    }
     .resumo .container .fluid .left h1 {
         font-size: 40px;
     }
     .resumo .container .fluid .social {
-        margin-left: 120px;
+        margin-left: 160px;
     }
     .resumo .container .fluid .social .rede {
         margin-left: 44px;
@@ -206,7 +212,7 @@
         margin-top: 20px;
     }
     .intro {
-        height: 480px;
+        height: 440px;
     }
     .intro .container .fluid .img img {
         width: 100px;
@@ -216,7 +222,7 @@
     }
     .formacao .container .fluid .tituloForm {
         float: none;
-        margin-left: 200px;
+        margin-left: 240px;
     }
     .formacao .container .fluid .especificacao h3 {
         font-size: 22px;
@@ -226,7 +232,7 @@
     }
     .experiência .container .fluid .expe-info {
         float: none;
-        margin-left: 200px;
+        margin-left: 240px;
         margin-bottom: -10px;
     }
     .experiência .container .fluid .desc-exp {
@@ -234,13 +240,13 @@
     }
     .skill .container .fluid .skill-titulo {
         float: none;
-        margin: -1px 0px -42px 213px;
+        margin: -1px 0px -42px 240px;
     }
     .skill .container .fluid .skill-desc .lista-progress li {
         float: none;
     }
     .skill .container .fluid .skill-desc .lista-progress .progress-bar {
-        width: 310px;
+        width: 410px;
     }
     .skill .container .fluid .skill-desc .lista-progress {
         margin-bottom: 50px;
@@ -256,22 +262,98 @@
     }
 }
 
-@media (min-width: 500px) and (max-width: 600px) {
+@media all and (max-width: 640px) {
+    .left * {
+        font-size: 21px;
+    }
+    .right * {
+        font-size: 23px;
+    }
+    .sub-titulo {
+        font-size: 14px;
+    }
+    .barra-nav {
+        background-color: #000;
+        /* padding: 1em;*/
+        margin: 0;
+        height: 100%;
+        width: 90%;
+        max-width: 320px;
+        position: fixed;
+        top: 0;
+        left: -90%;
+        transition: left 0.3s ease-out;
+    }
+    .menu {
+        height: 40px;
+        position: fixed;
+    }
+    .menu-abrir,
+    .menu-fechar {
+        border: 0;
+        background-color: #000;
+        cursor: pointer;
+        display: block;
+    }
+    .menu-abrir img {
+        margin-left: -15px;
+    }
+    .menu-abrir img,
+    .menu-fechar img {
+        margin-top: 5px;
+    }
+    .menu-ativo .barra-nav {
+        left: 0;
+    }
+    .menu .container .fluid .menu-principal {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu .container .fluid .menu-principal li {
+        padding: 1em 0;
+        width: 100%;
+    }
+    .menu-ativo:after {
+        content: "";
+        display: block;
+        /*position: fixed;*/
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.4);
+    }
+}
+
+@media all and (min-width: 541px) and (max-width: 640px) {
     body {
         overflow-x: hidden;
     }
     .nav {
-        width: 585px;
+        width: 700px;
     }
     .container,
     .fluid {
-        width: 545px;
+        width: 520px;
+    }
+}
+
+@media all and (max-width: 540px) {
+    .nav {
+        min-width: 310px;
+    }
+    .container,
+    .fluid {
+        width: 310px;
     }
     .left * {
         font-size: 20px;
     }
+    .titulo {
+        font-size: 23px;
+    }
     .sub-titulo {
-        font-size: 20px;
+        font-size: 17px;
     }
     .barra-nav {
         background-color: #000;
@@ -323,6 +405,9 @@
     .resumo .container .fluid .left h1 {
         font-size: 40px;
     }
+    .resumo .container .fluid .cabecalho {
+        width: 520px;
+    }
     .resumo .container .fluid .social {
         margin-left: 160px;
     }
@@ -334,6 +419,13 @@
     .resumo .container .fluid .social .rede .icone {
         width: 40px;
         margin-top: 20px;
+    }
+    .intro .container .fluid .sobre {}
+    .intro .container .fluid .img img {
+        width: 134px;
+        margin-left: -16px;
+        margin-top: 17px;
+        margin-bottom: 392px;
     }
     .skill .container .fluid .skill-desc .lista-progress li {
         width: 100%;
@@ -356,7 +448,7 @@
         height: 100%;
         width: 90%;
         max-width: 320px;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: -90%;
         transition: left 0.3s ease-out;

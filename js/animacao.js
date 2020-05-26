@@ -92,35 +92,6 @@ for (let index = 0; index < lista.length; index++) {
 
 document.getElementById("myList").innerHTML = html;
 
-// var valor;
-// var html = '';
-
-// for (var i = 0; i < lista.length; i++) {
-//     valor = lista[i].children[0].innerText;
-//     valor = valor.replace(/\D/g, '');
-//     //valor.replace(/([0-10])+/g, '');
-//     novaLista.push(valor);
-// }
-
-// novaLista.sort((a, b) => b - a);
-
-// for (var i = 0; i < novaLista.length; i++) {
-//     for (var j = 0; j < lista.length; j++) {
-//         valor = lista[j].children[0].innerText;
-//         valor = valor.replace(/\D/g, '');
-
-//         if (valor === novaLista[i]) {
-//             lista[j].setAttribute('class', 'checked');
-//             html = html + ('<li>' + lista[j].innerHTML + '</li>');
-//             j = lista.length;
-//         }
-//     }
-// }
-
-
-//console.log(list.length, list);
-
-
 /* Menu Responsivo */
 
 document.querySelector('.menu-abrir').onclick = function() {
