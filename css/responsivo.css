@@ -199,9 +199,6 @@
     .resumo .container .fluid .left h1 {
         font-size: 40px;
     }
-    .resumo .container .fluid .social {
-        margin-left: 160px;
-    }
     .resumo .container .fluid .social .rede {
         margin-left: 44px;
         width: 80px;
@@ -210,9 +207,6 @@
     .resumo .container .fluid .social .rede .icone {
         width: 40px;
         margin-top: 20px;
-    }
-    .intro {
-        height: 440px;
     }
     .intro .container .fluid .img img {
         width: 100px;
@@ -253,7 +247,6 @@
     }
     .rodape .container .fluid .contato {
         margin-top: 75px;
-        margin-left: 330px;
     }
     .rodape .container .fluid .atalho a,
     .rodape .container .fluid .contato,
@@ -271,6 +264,9 @@
     }
     .sub-titulo {
         font-size: 14px;
+        margin: 0px 10px 10px;
+        padding: 0;
+        display: table;
     }
     .titulo {
         margin-bottom: 0;
@@ -333,7 +329,7 @@
         font-size: 30px;
     }
     .resumo .container .fluid .social {
-        margin-left: 160px;
+        display: inline-flex;
     }
     .resumo .container .fluid .social .rede {
         margin-left: 30px;
@@ -349,35 +345,32 @@
     }
     .intro .container .fluid .img img {
         width: 100px;
-        margin: 15px 10px 270px -69px;
+        float: left;
+        margin: 20px 30px 0 -70px;
     }
-    .formacao .container .fluid .tituloForm {
-        float: none;
-        margin-left: 240px;
-    }
-    .formacao .container .fluid .especificacao {
-        margin-left: 50px;
-        margin-top: 5px;
-    }
-    .experiência .container .fluid .expe-info {
-        float: none;
-        margin-left: 240px;
-    }
-    .experiência .container .fluid .desc-exp {
-        margin-left: 50px;
-        margin-top: 60px;
-    }
+    .formacao .container .fluid .tituloForm,
+    .experiência .container .fluid .expe-info,
     .skill .container .fluid .skill-titulo {
         float: none;
-        margin-left: 240px;
-        margin-bottom: -52px;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .formacao .container .fluid .especificacao,
+    .experiência .container .fluid .desc-exp {
+        display: contents;
+        margin: 0;
     }
     .skill .container .fluid .skill-desc .lista-progress .progress-bar {
-        width: 410px;
+        width: 360px;
     }
     .skill .container .fluid .skill-desc .lista-progress {
-        margin-bottom: 40px;
-        margin-left: -50px;
+        margin: -30px 0 45px -30px;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
     }
     .skill .container .fluid .skill-desc .lista-progress li {
         float: none;
@@ -389,38 +382,33 @@
         font-size: 15px;
     }
     .rodape .container .fluid .contato {
-        margin-left: 315px;
-        margin-top: 60px;
-        font-size: 15px;
+        float: right;
     }
 }
 
 @media all and (min-width: 541px) and (max-width: 640px) {
-    body {
-        overflow-x: hidden;
-    }
     .nav {
-        width: 108%
+        min-width: 520px;
     }
     .container,
     .fluid {
-        width: 95%;
+        width: 420px;
     }
 }
 
 @media all and (max-width: 540px) {
     .nav {
-        min-width: 120%;
+        min-width: 320px;
     }
     .container,
     .fluid {
-        width: 520px;
+        width: 320px;
     }
     .left * {
         font-size: 20px;
     }
     .titulo {
-        font-size: 23px;
+        font-size: 18px;
     }
     .sub-titulo {
         font-size: 14px;
@@ -446,6 +434,9 @@
         background-color: #000;
         cursor: pointer;
         display: block;
+    }
+    .menu-abrir img {
+        margin-left: -140px;
     }
     .menu-abrir img,
     .menu-fechar img {
@@ -473,13 +464,7 @@
         background: rgba(0, 0, 0, 0.4);
     }
     .resumo .container .fluid .left h1 {
-        font-size: 40px;
-    }
-    .resumo .container .fluid .cabecalho {
-        width: 520px;
-    }
-    .resumo .container .fluid .social {
-        margin-left: 160px;
+        font-size: 35px;
     }
     .resumo .container .fluid .social .rede {
         margin-left: 20px;
@@ -493,8 +478,14 @@
     .intro .container .fluid .sobre {
         margin-bottom: 0px;
     }
-    .skill .container .fluid .skill-desc .lista-progress li {
-        width: 100%;
-        float: none;
+    .experiência .container .fluid .desc-exp h3,
+    .formacao .container .fluid .especificacao h3 {
+        font-size: 20px;
+    }
+    .skill .container .fluid .skill-desc .lista-progress {
+        margin-left: -60px;
+    }
+    .skill .container .fluid .skill-desc .lista-progress .progress-bar {
+        width: 290px;
     }
 }
