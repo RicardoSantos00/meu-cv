@@ -404,18 +404,19 @@
     }
     .container,
     .fluid {
-        width: 267px;
+        width: 237px;
     }
     .left * {
         font-size: 19px;
     }
     .titulo {
-        font-size: 18px;
+        margin-bottom: 0;
+        margin-left: 50px;
     }
     .sub-titulo {
         font-size: 11px;
         margin: 0;
-        margin-left: 20px;
+        margin-left: 50px;
         display: inline-flex;
         padding-bottom: 10px;
     }
@@ -481,25 +482,32 @@
     .intro .container .fluid .sobre {
         margin-bottom: 0px;
     }
+    .intro .container .fluid .img img {
+        width: 80px;
+        float: left;
+        position: absolute;
+        margin-left: -35px;
+    }
     .experiência .container .fluid .desc-exp .info,
     .formacao .container .fluid .especificacao .info {
-        font-size: 14px;
+        font: italic 13px 'librebaskerville-italic', serif
     }
     .experiência .container .fluid .desc-exp span,
     .experiência .container .fluid .desc-exp p,
     .formacao .container .fluid .especificacao span,
     .formacao .container .fluid .especificacao p {
-        font-size: 12px;
-        margin-left: -1px;
+        font-size: 11px;
+        margin-left: -5px;
     }
     .experiência .container .fluid .desc-exp h3,
     .formacao .container .fluid .especificacao h3 {
-        font-size: 20px;
+        font-size: 18px;
+        margin-left: -5px;
     }
     .skill .container .fluid .skill-desc .lista-progress {
-        margin-left: -60px;
+        margin-left: -79px;
     }
     .skill .container .fluid .skill-desc .lista-progress .progress-bar {
-        width: 260px;
+        width: 230px;
     }
 }
