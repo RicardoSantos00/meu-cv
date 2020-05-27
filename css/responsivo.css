@@ -404,7 +404,7 @@
     }
     .container,
     .fluid {
-        width: 237px;
+        width: 240px;
     }
     .left * {
         font-size: 19px;
@@ -434,6 +434,9 @@
     }
     .menu {
         height: 40px;
+    }
+    .menu-abrir img {
+        margin-left: -170px;
     }
     .menu-abrir,
     .menu-fechar {
@@ -468,7 +471,10 @@
         background: rgba(0, 0, 0, 0.4);
     }
     .resumo .container .fluid .left h1 {
-        font-size: 29px;
+        font-size: 26px;
+    }
+    .resumo .container .fluid .cabecalho p {
+        font-size: 17px;
     }
     .resumo .container .fluid .social .rede {
         margin-left: 20px;
@@ -488,13 +494,16 @@
         position: absolute;
         margin-left: -35px;
     }
+    .formacao .container .fluid .especificacao span {
+        margin-left: -2px;
+        font-size: 11px;
+    }
     .experiência .container .fluid .desc-exp .info,
     .formacao .container .fluid .especificacao .info {
         font: italic 13px 'librebaskerville-italic', serif
     }
     .experiência .container .fluid .desc-exp span,
     .experiência .container .fluid .desc-exp p,
-    .formacao .container .fluid .especificacao span,
     .formacao .container .fluid .especificacao p {
         font-size: 11px;
         margin-left: -6px;
