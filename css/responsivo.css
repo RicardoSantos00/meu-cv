@@ -264,12 +264,13 @@
     }
     .sub-titulo {
         font-size: 14px;
-        margin: 0px 10px 10px;
+        margin: 0px 10px 10px 20px;
         padding: 0;
         display: table;
     }
     .titulo {
         margin-bottom: 0;
+        margin-left: 20px;
     }
     .barra-nav {
         background-color: #000;
@@ -346,7 +347,8 @@
     .intro .container .fluid .img img {
         width: 100px;
         float: left;
-        margin: 20px 30px 0 -50px;
+        position: absolute;
+        margin-left: -90px;
     }
     .formacao .container .fluid .tituloForm,
     .experiência .container .fluid .expe-info,
@@ -411,7 +413,11 @@
         font-size: 18px;
     }
     .sub-titulo {
-        font-size: 14px;
+        font-size: 11px;
+        margin: 0;
+        margin-left: 20px;
+        display: inline-flex;
+        padding-bottom: 10px;
     }
     .barra-nav {
         background-color: #000;
@@ -474,6 +480,17 @@
     }
     .intro .container .fluid .sobre {
         margin-bottom: 0px;
+    }
+    .experiência .container .fluid .desc-exp .info,
+    .formacao .container .fluid .especificacao .info {
+        font-size: 14px;
+    }
+    .experiência .container .fluid .desc-exp span,
+    .experiência .container .fluid .desc-exp p,
+    .formacao .container .fluid .especificacao span,
+    .formacao .container .fluid .especificacao p {
+        font-size: 12px;
+        margin-left: -1px;
     }
     .experiência .container .fluid .desc-exp h3,
     .formacao .container .fluid .especificacao h3 {
