@@ -436,7 +436,7 @@
         height: 40px;
     }
     .menu-abrir img {
-        margin-left: -170px;
+        margin-left: -80px;
     }
     .menu-abrir,
     .menu-fechar {
@@ -514,9 +514,15 @@
         margin-left: -5px;
     }
     .skill .container .fluid .skill-desc .lista-progress {
-        margin-left: -79px;
+        margin-left: -65px;
     }
     .skill .container .fluid .skill-desc .lista-progress .progress-bar {
-        width: 230px;
+        width: 210px;
+    }
+    .skill .container .fluid .skill-desc .lista-progress .percent {
+        font-size: 15px;
+    }
+    .skill .container .fluid .skill-desc .lista-progress .upper {
+        font-size: 15px;
     }
 }
