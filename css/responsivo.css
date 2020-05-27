@@ -402,10 +402,10 @@
     }
     .container,
     .fluid {
-        width: 320px;
+        width: 267px;
     }
     .left * {
-        font-size: 20px;
+        font-size: 19px;
     }
     .titulo {
         font-size: 18px;
@@ -436,7 +436,7 @@
         display: block;
     }
     .menu-abrir img {
-        margin-left: -140px;
+        margin-left: -30px;
     }
     .menu-abrir img,
     .menu-fechar img {
@@ -464,7 +464,7 @@
         background: rgba(0, 0, 0, 0.4);
     }
     .resumo .container .fluid .left h1 {
-        font-size: 35px;
+        font-size: 29px;
     }
     .resumo .container .fluid .social .rede {
         margin-left: 20px;
@@ -483,9 +483,9 @@
         font-size: 20px;
     }
     .skill .container .fluid .skill-desc .lista-progress {
-        margin-left: -60px;
+        margin-left: -50px;
     }
     .skill .container .fluid .skill-desc .lista-progress .progress-bar {
-        width: 290px;
+        width: 260px;
     }
 }
