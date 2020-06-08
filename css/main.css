@@ -160,8 +160,9 @@ h3 {
 }
 
 .resumo .container .fluid .social .rede .icone {
-    margin-top: 35px;
-    width: 80px;
+    margin-top: 27px;
+    width: 95px;
+    margin-left: 2px;
 }
 
 .intro {
