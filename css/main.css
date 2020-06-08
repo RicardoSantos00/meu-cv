@@ -279,41 +279,31 @@ h3 {
     color: #fff;
 }
 
-.rodape .container .fluid .contato h2 {
-    margin: -20px 0 15px 0;
-}
-
-.rodape .container .fluid .contato span p {
-    font-size: 15px;
-    margin: -3px 0 0 15px;
-}
-
-.rodape .container .fluid .contato span {
+.rodape .container .fluid .small-rede {
     display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 3px;
 }
 
-.rodape .container .fluid .contato {
-    float: right;
-    display: block;
-    margin: 40px 0 0 0;
+.rodape .container .fluid .small-rede .rede img {
+    border: 0;
+    background-color: #000;
+    padding-left: 10px;
 }
 
-.rodape .container .fluid .contato img {
-    margin: 0 10px 10px 0;
-}
-
-.rodape .container .fluid .contato span .location {
-    height: 25px;
-}
-
-.rodape .container .fluid .contato span span {
-    font-size: 20px;
-    margin: 14px 0 10px -56px;
+.rodape .container .fluid .small-rede .rede:hover {
+    color: #F06000;
+    filter: alpha(opacity=100);
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 .rodape .container .fluid .direitos p {
-    text-transform: uppercase;
     text-align: center;
+    font-size: 14px;
 }
 
 

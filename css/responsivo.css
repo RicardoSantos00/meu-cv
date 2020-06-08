@@ -6,9 +6,6 @@
     .fluid {
         width: 907px;
     }
-    .resumo .container .fluid .social {
-        margin-left: 270px;
-    }
 }
 
 @media all and (min-width: 941px) and (max-width: 1025px) {
@@ -524,5 +521,8 @@
     }
     .skill .container .fluid .skill-desc .lista-progress .upper {
         font-size: 15px;
+    }
+    .rodape .container .fluid .direitos p {
+        font-size: 13px;
     }
 }
